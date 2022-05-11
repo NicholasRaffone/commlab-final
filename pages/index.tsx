@@ -12,7 +12,7 @@ const IndexPage = () => {
   const [songIMG, setSongIMG] = useState([] as string[])
   const getSongs = async() =>{
     try{
-      const data = await fetch('http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=nraffone&api_key=94cf6de10f0575802817cba590017759&format=json')
+      const data = await fetch('https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=nraffone&api_key=94cf6de10f0575802817cba590017759&format=json')
       const jsonData = await data.json()
       const titlelist = [];
       const artistslist = [];
