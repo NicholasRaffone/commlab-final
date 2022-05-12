@@ -37,7 +37,7 @@ const IndexPage = () => {
       <div className="pt-16 md:pt-0 h-screen md:grid grid-cols-2 mb-5 md:mb-0">
         <div className='flex flex-col justify-center mx-20 w-fit md:h-auto h-96'>
           <h1 className='text-6xl mb-5 tracking-widest text-center md:text-left'>Hi! I'm Nicholas</h1>
-          <p className='text-2xl text-violet-500 text-center md:text-left'>I like x, y, z</p>
+          <p className='text-2xl text-violet-500 text-center md:text-left'>Coding for fun</p>
           <div className="relative w-fit self-end md:my-0 my-2">
             <p className='cursor-pointer group'>
               <Link href="/about">
